@@ -1,7 +1,0 @@
-{
-  "name": "desing",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
