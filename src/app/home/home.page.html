@@ -3,33 +3,25 @@
 <ion-content [fullscreen]="true">
 
 
-  <ion-content>
   
+ 
     <div class="form-login">
-      <div class="login-head">
+      <div class="login-head"  style="background-color:  #0A2456; border:3px solid #0A2456">
           <ion-toolbar >
             <ion-title>Login</ion-title>
           </ion-toolbar>
       </div>
       <div class="login-email">             
-        <ion-item-divider>
-          <ion-label >
-            Email address
-          </ion-label>
-        </ion-item-divider>
-        <ion-item>
-          <ion-input  name="name" type="email" placeholder="Password"  required></ion-input>
-        </ion-item>
+          <ion-item>
+            <ion-label  name="name" type="email" position="floating"> Email Address</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
       </div>
       <div class="login-password">     
-        <ion-item-divider>
-        <ion-label>
-          Password
-        </ion-label>
-      </ion-item-divider>
-      <ion-item>
-        <ion-input name="Password" type="password" placeholder="Password"  required></ion-input>
-      </ion-item>
+        <ion-item>
+          <ion-label  name="name" type="Password" position="floating"> Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
     </div>  
       <div class="forget-password">
         <ion-item-divider>
@@ -58,24 +50,16 @@
           </ion-toolbar>
       </div>
       <div class="signup-email">
-        <ion-item-divider>
-          <ion-label >
-            Email address
-          </ion-label>
-        </ion-item-divider>
         <ion-item>
-          <ion-input  name="name" type="email" placeholder="Email address"  required></ion-input>
+          <ion-label  name="name" type="email" position="floating"> Email address</ion-label>
+          <ion-input></ion-input>
         </ion-item>
-      </div>
+      </div> 
       <div class="signup-password">     
-        <ion-item-divider>
-        <ion-label>
-          Password 
-        </ion-label>
-      </ion-item-divider>
-      <ion-item>
-        <ion-input name="Password" type="password" placeholder="Password"  required></ion-input>
-      </ion-item>
+        <ion-item>
+          <ion-label  name="name" type="password" position="floating"> Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
     </div>
     <div class="remember-me" > 
       <ion-list>
@@ -92,4 +76,4 @@
   
   
 
-</ion-content>
+

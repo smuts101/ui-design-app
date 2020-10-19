@@ -37,7 +37,7 @@ font-size: 1.1em;
  /*Buttons*/
    /*Buttons*/
    .form-btn-signup ion-button {
-     
+   
     --height: 70px;
     --border-radius: 50%;
     --vertical-align: middle;
@@ -49,25 +49,28 @@ font-size: 1.1em;
     .form-btn-signup,.form-btn-login{
       margin-top: -28px;
     }
+    .form-btn-login{
+      margin-right:-4px;
+    }
     .form-btn-signup{
-      margin-top: -24px;
-      margin-right:-9px ;
+      margin-top: -25px;
+   
+      
+     margin-right:-5px ;
     }
     .forget-password{
       height:100px;
       background-color: #0A2456;
     }
     .form-btn-login ion-button {
-      
       --height: 70px;
       --border-radius: 50%;
       --vertical-align: middle;
       --padding-start: 10px;
-      --background: #0A2456;
-      margin-right: -3px;
+      --padding-end: 10px;
+      --background:  #0A2456;
       --color:#fff;
-    
-      }
+     }
      
       /*The year area*/
 

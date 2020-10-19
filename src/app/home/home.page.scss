@@ -8,10 +8,7 @@
  
  }
  .form-login div{
-   border:1px solid  #0A2456;;
    width:100%;
-  
-   
  }
  .login-and-signup{
    display:flex;
@@ -70,24 +67,28 @@
  .form-btn-signup,.form-btn-login{
    margin-top: -28px;
  }
+ .form-btn-login{
+   margin-right:-4px;
+ }
  .form-btn-signup{
    margin-top: -28px;
-   margin-right:-9px ;
+
+   
+  margin-right:-5px ;
  }
  .forget-password{
    height:100px;
    background-color: #0A2456;
  }
  .form-btn-login ion-button {
-   
    --height: 70px;
    --border-radius: 50%;
    --vertical-align: middle;
    --padding-start: 10px;
-   --background: #0A2456;
-   margin-right: -3px;
+   --padding-end: 10px;
+   --background:  #0A2456;
    --color:#fff;
-   }
+  }
  
    /****SignUp Form******/
    .remember-div div{
@@ -98,10 +99,10 @@
  
    }
    .remember-me ion-list ion-item ion-label{
-    color: #dad6d6;
+    color: #a2a4a5;
    }
    .remember-me ion-list ion-item  ion-checkbox{
-    --color: #d4ceced5;
+    --color:  #a2a4a5;
    }
 
    .remember-div{
@@ -110,35 +111,52 @@
  }
  .remember-me ion-item{
    border-bottom:1px solid white;
-   
+   color:#a2a4a5;   
  }
  /******STyleing*****/
  .signup-head{
   width:98%;
   margin-left: 1%;
-  border:1px solid #fff;
+ 
  }
 
 .login-head ion-toolbar {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
 
 }
 .login-head ion-toolbar ion-title{
   font-weight: bolder;
+  border:10x solid  none;
 }
 .login-email ion-item-divider ion-label,.login-password ion-item-divider ion-label,.forget-password ion-item-divider ion-label a{
   color: #47608d;
   text-decoration: none;
 }
+.login-email ion-item ion-label,.login-password ion-item ion-label{
+  color: #47608d;
+  font-size: 1em;;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left: 1%;;
+  text-decoration: none;
+}
+
+ ion-input{ 
+  width: 95%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;}
 /**********Signup*************/
 .signup-head ion-toolbar ion-title{
   font-weight: bolder;
  
 }
 
-.signup-email ion-item-divider ion-label,.signup-password ion-item-divider ion-label{
-  color:#D7DBDD;
+.signup-email ion-label,.signup-password  ion-label{
+  color:#a2a4a5;
   width:94%;
   margin-left: 1%;
 }
@@ -154,3 +172,4 @@
 ion-checkbox{
   background-color: #050579;;
 }
+
